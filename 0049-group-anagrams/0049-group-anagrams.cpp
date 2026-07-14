@@ -4,7 +4,7 @@ public:
         vector<vector<string>> ans;
         unordered_map<string, vector<string>> mp;
 
-        for(string str: strs){
+        for(const string &str : strs){
             string key = str;
             sort(key.begin(), key.end()); //sort the value for key
 
