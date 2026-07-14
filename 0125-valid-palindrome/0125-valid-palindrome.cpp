@@ -1,18 +1,26 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        for (char &c : s) {
-            c = tolower(c);
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            while (left < right && !isalnum(s[left])) {
+                left++;
+            }
+
+            while (left < right && !isalnum(s[right])) {
+                right--;
+            }
+
+            if (tolower(s[left]) != tolower(s[right])) {
+                return false;
+            }
+
+            left++;
+            right--;
         }
 
-        // remove non-alphanumeric characters
-        s.erase(remove_if(s.begin(), s.end(), [](char c) {
-            return !isalnum(c);   // remove if NOT alphanumeric
-        }), s.end());
-
-        // check palindrome
-        string t = s;
-        reverse(s.begin(), s.end());
-        return s == t;
+        return true;
     }
 };
