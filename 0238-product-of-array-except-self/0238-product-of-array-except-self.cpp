@@ -27,7 +27,7 @@ public:
 
         vector<int> answer(n);
         for(int i=0;i<n;i++){
-            answer[i] += left[i]*right[i];
+            answer[i] = left[i]*right[i];
         }
         return answer;
     }
