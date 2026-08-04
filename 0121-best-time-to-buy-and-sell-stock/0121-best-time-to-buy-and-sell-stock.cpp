@@ -13,4 +13,20 @@ public:
 
         return maxProfit;
     }
+
+        // //Two pointer approach
+        // int left = 0; // left = Buy
+        // int right = 1; // right = Sell
+        // int maxProfit = 0;
+
+        // while(right < prices.size()) {
+        //     if(prices[left] > prices[right]) {
+        //         left = right;
+        //     }
+        //     else {
+        //         maxProfit = max(maxProfit, prices[right] - prices[left]);
+        //     }
+        //     right++;
+        // }
+        // return maxProfit;
 };
