@@ -11,9 +11,12 @@ public:
         }
 
         for (int num : nums2) {
+
             while (!st.empty() && st.top() < num) {
                 int idx = mp[st.top()];
+
                 ans[idx] = num;
+
                 st.pop();
             }
 
