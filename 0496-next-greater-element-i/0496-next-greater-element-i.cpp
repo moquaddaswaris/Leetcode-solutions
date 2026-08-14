@@ -1,29 +1,31 @@
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        vector<int> ans(nums1.size(), -1);
         unordered_map<int, int> mp;
         stack<int> st;
 
-        // find next greater element for every element in nums2
-        for (int num : nums2){
-            while (!st.empty() && st.top()<num){
-                mp[st.top()] = num;
+        // nums1 value -> index
+        for (int i = 0; i < nums1.size(); i++) {
+            mp[nums1[i]] = i;
+        }
+
+        for (int num : nums2) {
+
+            while (!st.empty() && st.top() < num) {
+                int idx = mp[st.top()];
+
+                ans[idx] = num;
+
                 st.pop();
             }
-            st.push(num);
+
+            // Only push elements that exist in nums1
+            if (mp.find(num) != mp.end()) {
+                st.push(num);
+            }
         }
 
-        // Elements remaining in stack have no greater element
-        while (!st.empty()){
-            mp[st.top()] = -1;
-            st.pop();
-        }
-
-        // Build answer for nums1
-        vector<int> ans;
-        for (int num : nums1) {
-            ans.push_back(mp[num]);
-        }
         return ans;
     }
 };
