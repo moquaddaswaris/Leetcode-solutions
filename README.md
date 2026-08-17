@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -139,4 +141,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
