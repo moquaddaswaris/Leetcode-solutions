@@ -9,7 +9,7 @@ public:
             cars.push_back({position[i], time});
         }
 
-        // Sort by position in descending order
+        //sorting the array in descending order
         sort(cars.rbegin(), cars.rend());
 
         int fleets = 0;
