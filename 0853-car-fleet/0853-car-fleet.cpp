@@ -15,9 +15,13 @@ public:
         int fleets = 0;
         double maxTime = 0;
 
+        //eg. cars = {
+        //     {10, 12.5},
+        //     {8, 15.2},
+        //     {3, 20.0}
+        // };
         for (auto& car : cars) {
             double time = car.second;
-
             if (time > maxTime) {
                 fleets++;
                 maxTime = time;
