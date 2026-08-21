@@ -1,110 +1,71 @@
 class Solution {
 public:
-
-    long long sumSubarrayMin(vector<int>& nums) {
+    long long subArrayRanges(vector<int>& nums) {
         int n = nums.size();
-
-        vector<int> prev(n), next(n);
         stack<int> st;
 
-        // Previous Smaller
+        // previous and next smaller element
+        vector<int> prevSmallest(n);
+        vector<int> nextSmallest(n);
         for (int i = 0; i < n; i++) {
             while (!st.empty() && nums[st.top()] > nums[i]) {
                 st.pop();
             }
-
-            if (st.empty())
-                prev[i] = -1;
-            else
-                prev[i] = st.top();
+            if (st.empty()) prevSmallest[i] = -1;
+            else prevSmallest[i] = st.top();
 
             st.push(i);
         }
-
-        while (!st.empty())
+        while (!st.empty()) {
             st.pop();
+        }
 
-        // Next Smaller or Equal
         for (int i = n - 1; i >= 0; i--) {
             while (!st.empty() && nums[st.top()] >= nums[i]) {
                 st.pop();
             }
-
-            if (st.empty())
-                next[i] = n;
-            else
-                next[i] = st.top();
-
+            if (st.empty()) nextSmallest[i] = n;
+            else nextSmallest[i] = st.top();
             st.push(i);
         }
-
-        long long sum = 0;
-
-        for (int i = 0; i < n; i++) {
-            long long left = i - prev[i];
-            long long right = next[i] - i;
-
-            sum += (long long)nums[i] * left * right;
-        }
-
-        return sum;
-    }
-
-
-    long long sumSubarrayMax(vector<int>& nums) {
-        int n = nums.size();
-
-        vector<int> prev(n), next(n);
-        stack<int> st;
-
-        // Previous Greater
-        for (int i = 0; i < n; i++) {
-            while (!st.empty() && nums[st.top()] < nums[i]) {
-                st.pop();
-            }
-
-            if (st.empty())
-                prev[i] = -1;
-            else
-                prev[i] = st.top();
-
-            st.push(i);
-        }
-
-        while (!st.empty())
+        while (!st.empty()) {
             st.pop();
+        }
 
-        // Next Greater or Equal
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.empty() && nums[st.top()] <= nums[i]) {
+        // previous and next largest Element
+        vector<int> prevLargest(n);
+        vector<int> nextLargest(n);
+        for(int i = 0; i<n; i++){
+            while(!st.empty() && nums[st.top()] < nums[i]){
                 st.pop();
             }
-
-            if (st.empty())
-                next[i] = n;
-            else
-                next[i] = st.top();
-
+            if(st.empty()) prevLargest[i] = -1;
+            else prevLargest[i] = st.top();
+            st.push(i);
+        }
+        while(!st.empty()){
+            st.pop();
+        }
+        for(int i = n-1; i>=0; i--){
+            while(!st.empty() && nums[st.top()] <= nums[i]){
+                st.pop();
+            }
+            if(st.empty()) nextLargest[i] = n;
+            else nextLargest[i] = st.top();
             st.push(i);
         }
 
-        long long sum = 0;
-
+        long long minSum = 0;
+        long long maxSum = 0;
         for (int i = 0; i < n; i++) {
-            long long left = i - prev[i];
-            long long right = next[i] - i;
+            long long leftMin = i - prevSmallest[i];
+            long long rightMin = nextSmallest[i] - i;
+            minSum += nums[i] * leftMin * rightMin;
 
-            sum += (long long)nums[i] * left * right;
+            long long leftMax = i - prevLargest[i];
+            long long rightMax = nextLargest[i] - i;
+            maxSum += nums[i] * leftMax * rightMax;
         }
-
-        return sum;
-    }
-
-
-    long long subArrayRanges(vector<int>& nums) {
-        long long maximumSum = sumSubarrayMax(nums);
-        long long minimumSum = sumSubarrayMin(nums);
-
-        return maximumSum - minimumSum;
+        return maxSum - minSum;
     }
 };
