@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0402-remove-k-digits](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0011-container-with-most-water) |
+| [0402-remove-k-digits](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0155-min-stack) |
+| [0402-remove-k-digits](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0739-daily-temperatures) |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0739-daily-temperatures) |
