@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0853-car-fleet) |
 | [0907-sum-of-subarray-minimums](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
+| [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Hash Table
 |  |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 ## Union-Find
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0162-find-peak-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 ## Greedy
 |  |
 | ------- |
