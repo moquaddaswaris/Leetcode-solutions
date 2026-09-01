@@ -11,7 +11,8 @@ public:
             int mid = (high + low)/2;
             int rowIndex = 0;
 
-            for (int i = 1; i < rows; i++) {
+            //find the max elem for mid row.
+            for (int i = 1; i < rows; i++){
                 if (mat[i][mid] > mat[rowIndex][mid]) {
                     rowIndex = i;
                 }
