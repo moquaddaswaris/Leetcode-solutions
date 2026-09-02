@@ -20,8 +20,8 @@ public:
         }
 
         curr = head;
-        int mid = n/2 + 1;
-        while(mid != 1){
+        int mid = n/2;
+        while(mid != 0){
             mid --;
             curr = curr -> next;
         }
