@@ -30,8 +30,8 @@ public:
         leftHead = sortList(leftHead);
         rightHead = sortList(rightHead);
 
-        // Merge two sorted lists
-        ListNode* dummy = new ListNode(0);
+        //merge two sorted lists
+        ListNode* dummy = new ListNode(-1);
         ListNode* curr = dummy;
 
         while(leftHead != NULL && rightHead != NULL){
@@ -47,12 +47,9 @@ public:
             curr = curr->next;
         }
 
-        // Attach remaining nodes
-        if(leftHead != NULL)
-            curr->next = leftHead;
-
-        if(rightHead != NULL)
-            curr->next = rightHead;
+        // attach remaining nodes
+        if(leftHead != NULL) curr->next = leftHead;
+        if(rightHead != NULL) curr->next = rightHead;
 
         return dummy->next;
     }
