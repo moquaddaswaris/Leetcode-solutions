@@ -18,8 +18,8 @@ public:
         }
 
         // attach whatever is left
-        if (list1 != NULL) temp->next = list1;
-        else temp->next = list2;
+        if (list1 == NULL) temp->next = list2;
+        else temp->next = list1;
 
         return dummy->next;
     }
