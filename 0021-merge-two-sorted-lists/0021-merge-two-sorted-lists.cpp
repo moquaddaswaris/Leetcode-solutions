@@ -4,9 +4,8 @@ public:
         ListNode* dummy = new ListNode(-1);
         ListNode* temp = dummy;
 
-        while (list1 != NULL && list2 != NULL) {
-
-            if (list1->val <= list2->val) {
+        while (list1 != NULL && list2 != NULL){
+            if (list1->val <= list2->val){
                 temp->next = list1;
                 list1 = list1->next;
             }
@@ -18,13 +17,9 @@ public:
             temp = temp->next;
         }
 
-        // Attach whatever is left
-        if (list1 != NULL) {
-            temp->next = list1;
-        }
-        else {
-            temp->next = list2;
-        }
+        // attach whatever is left
+        if (list1 != NULL) temp->next = list1;
+        else temp->next = list2;
 
         return dummy->next;
     }
