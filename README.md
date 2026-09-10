@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0503-next-greater-element-ii) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
@@ -235,8 +238,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0148-sort-list) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
