@@ -27,7 +27,6 @@ public:
         int rightD = depth(root->right);
 
         if(abs(leftD - rightD) > 1) return false;
-
         return isBalanced(root->left) && isBalanced(root->right);
     }
 };
