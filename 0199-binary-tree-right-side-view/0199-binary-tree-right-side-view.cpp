@@ -31,7 +31,8 @@ public:
     vector<int> ans;
     void reversePreorder(TreeNode* root, int level){
         if(!root) return;
-        if(ans.size() == level) ans.push_back(root->val);
+        if(ans.size() == level)
+            ans.push_back(root->val);
 
         reversePreorder(root->right, level+1);
         reversePreorder(root->left, level+1);
