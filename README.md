@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
 | [2104-sum-of-subarray-ranges](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Hash Table
