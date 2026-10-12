@@ -12,9 +12,6 @@
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        if(!root) return root;
-        if(root->val == val) return root;
-
         TreeNode* temp = root;
         while(temp){
             if(temp->val < val) temp = temp->right;
