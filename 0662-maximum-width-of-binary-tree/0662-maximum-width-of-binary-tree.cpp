@@ -18,19 +18,18 @@ public:
 
         q.push({root, 0});
         while(!q.empty()){
-            int currSize = q.size();
-            unsigned long long startIdx = q.front().second;
+            int currLevelSize = q.size();
 
-            for(int i=0; i<currSize; i++){
-                TreeNode* curr = q.front().first;
-                unsigned long long idx = q.front().second - startIdx;
+            unsigned long long startIdx = q.front().second;
+            unsigned long long endIdx = q.back().second;
+            maxWidth = max(maxWidth, (int)(endIdx-startIdx+1));
+
+            for(int i=0; i<currLevelSize; i++){
+                auto curr = q.front();
                 q.pop();
 
-                if(i == currSize-1)
-                    maxWidth = max(maxWidth, (int)(idx+1));
-
-                if(curr->left) q.push({curr->left, 2*idx+1});
-                if(curr->right) q.push({curr->right, 2*idx+2});
+                if(curr.first->left) q.push({curr.first->left, 2*curr.second+1});
+                if(curr.first->right) q.push({curr.first->right, 2*curr.second+2});
             }
         }
 
