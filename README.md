@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0148-sort-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
@@ -82,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -96,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
@@ -372,4 +377,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0700-search-in-a-binary-search-tree) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
