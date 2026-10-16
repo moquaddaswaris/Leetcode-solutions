@@ -13,8 +13,8 @@ class BSTIterator {
 public:
     stack<TreeNode*> st;
     bool reverse = true;
-    // reverse = true (means before)
-    //reverse = false (means next)
+    // reverse = true (means before from largest element and son on)
+    //reverse = false (means next from smallest element and so on)
     BSTIterator(TreeNode* root, bool isReverse) {
         reverse = isReverse;
         pushAll(root);
@@ -32,9 +32,6 @@ public:
 
         reverse ? pushAll(temp->left) : pushAll(temp->right);
         return temp->val;
-    }
-    bool hasNext() {
-        return !st.empty();
     }
 };
 
