@@ -17,18 +17,24 @@ public:
             inMap[inorder[i]] = i;
         }
 
-        int preIndex = 0;
-        return build(preorder, preIndex, 0, inorder.size() - 1, inMap);
+        TreeNode* root = build(preorder, 0, preorder.size()-1,
+                               inorder, 0, inorder.size()-1, inMap);
+        return root;
     }
 
-    TreeNode* build(vector<int>& preorder, int& preIndex, int inStart, int inEnd, map<int, int>& inMap){
-        if(inStart > inEnd) return NULL;
-        TreeNode* root = new TreeNode(preorder[preIndex++]);
+    TreeNode* build(vector<int>& preorder, int preStart, int preEnd,
+                    vector<int>& inorder, int inStart, int inEnd, map<int, int>& inMap) {
+
+        if(preStart > preEnd || inStart > inEnd) return NULL;
+        TreeNode* root = new TreeNode(preorder[preStart]);
 
         int inRoot = inMap[root->val];
+        int numsLeft = inRoot - inStart;
 
-        root->left = build(preorder, preIndex, inStart, inRoot - 1, inMap);
-        root->right = build(preorder, preIndex, inRoot + 1, inEnd, inMap);
+        root->left = build(preorder, preStart + 1, preStart + numsLeft,
+                           inorder, inStart, inRoot - 1, inMap);
+        root->right = build(preorder, preStart + numsLeft + 1, preEnd,
+                            inorder, inRoot + 1, inEnd, inMap);
 
         return root;
     }
