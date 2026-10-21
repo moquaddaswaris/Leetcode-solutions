@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0371-sum-of-two-integers](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0371-sum-of-two-integers) |
+| [0507-perfect-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0507-perfect-number) |
 | [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 ## Range Minimum/Maximum Query
 |  |
