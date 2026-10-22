@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0169-majority-element) |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
 | [0371-sum-of-two-integers](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0507-perfect-number](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0507-perfect-number) |
 | [1903-largest-odd-number-in-string](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
@@ -436,4 +438,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0173-binary-search-tree-iterator) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
