@@ -1,15 +1,12 @@
 class Solution {
 public:
     string largestOddNumber(string num) {
-        string s = "";
-        while (!num.empty()){
-            if ((num.back()-'0')%2 != 0){
-                s = num;
-                break;
-            }else {
-                num.pop_back();
+        for(int i=num.size()-1; i>=0; i--){
+            if((num[i]-'0')%2 == 1){
+                return num.substr(0, i+1);
             }
         }
-        return s;
+
+        return "";
     }
 };
