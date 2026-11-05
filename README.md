@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0240-search-a-2d-matrix-ii) |
 | [1901-find-a-peak-element-ii](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/1901-find-a-peak-element-ii) |
@@ -488,4 +490,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0014-longest-common-prefix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/moquaddaswaris/Leetcode-solutions/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
